@@ -1,0 +1,66 @@
+
+.container {
+    border: 0.5px solid;
+    width: 40%;
+    border-color: black;
+    background-color: floralwhite;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5px;
+    min-width: 300px;
+    
+    
+}
+body {
+    background-color: rgb(175, 157, 134);
+}
+
+div {
+    height: 40%;
+    width: 100%;
+}
+
+.btn {
+    margin-left: 35%;
+    margin-bottom: 10%;
+    width: 30%;
+    background-color: transparent;
+    border: 0.2px black solid;
+    border-radius: 20px;
+    font-size: 100%;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    border: none;
+}
+
+h1, h3 {
+    text-align: center;
+    
+}
+
+h4 {
+    margin-left: 10%;
+    
+}
+
+
+input {
+    height: 1cm;
+    font-size: 100%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.sign {
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    margin-top: none;
+    border-top: 0.5px black solid;
+    background-color: floralwhite;
+    font-family: sans-serif;
+}

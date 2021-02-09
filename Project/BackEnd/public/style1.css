@@ -1,0 +1,45 @@
+#main {
+    border: 0.4px black solid ;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: floralwhite;
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 300px;
+}
+
+input {
+    width: 78%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 1cm;
+    font-size: 100%;
+    border-radius: 6px;
+    border: 00.2px black solid;
+    padding: 1%;
+    
+}
+
+.btn {
+    width: 30%;
+    margin-left: 34%;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 0.2px black solid;
+
+}
+
+h2, h4 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(175, 157, 134);
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    border: none;
+}

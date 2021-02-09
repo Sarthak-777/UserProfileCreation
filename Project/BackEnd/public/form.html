@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+            <div class="container">
+                <form action = "/form" method = "POST">
+                    <h1><b>Login Page</b></h1>
+                    <div>
+                        <input type="text" id="username" required placeholder="Username" required name = "userName">
+                    </div>
+                    <div class="b">
+                        <input type="password" id="password" required placeholder="Password" required name = "password">
+                        <a href="form.html"><h4>Forgot password?</h4></a>
+                    </div>
+                    <input type="submit" id="signIn" class="btn" value="Sign In">
+                </form> 
+                <div class= "sign">
+                    <h3>Don't have an account?</h3>
+                    <input type="submit" id="signUp" class="btn" value="Sign Up">
+                </div>
+
+            </div>
+          
+            
+          <script src="scripts.js"></script>  
+    </body>
+</html>
